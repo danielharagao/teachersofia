@@ -1,0 +1,205 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #1E3C72, #2A5298);
+    color: #333333;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #FFC107;
+}
+
+.navbar .nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #FFC107;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.cta-button {
+    padding: 0.8rem 2rem;
+    background: #FFC107;
+    color: #1E3C72;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #FFD54F;
+}
+
+.benefits-section {
+    background: #FFFFFF;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.benefits-section h2 {
+    color: #1E3C72;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    flex: 1 1 250px;
+    padding: 1.5rem;
+    background: #F9F9F9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.benefit h3 {
+    color: #FFC107;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.benefit p {
+    font-size: 1rem;
+    color: #666666;
+}
+
+.demo-section {
+    background: #1E3C72;
+    color: #FFFFFF;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.demo-section h2 {
+    color: #FFC107;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#demo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#demo-form input {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    font-size: 1rem;
+}
+
+#demo-form button {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    background: #FFC107;
+    color: #1E3C72;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#demo-form button:hover {
+    background: #FFD54F;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1E3C72;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+.features-section {
+    padding: 2rem 1rem;
+    background: #FFFFFF; /* Fundo branco para contraste */
+    color: #333333; /* Texto escuro para legibilidade */
+    text-align: left; /* Alinhamento à esquerda para leitura mais fluida */
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    color: #1E3C72; /* Azul escuro para destaque */
+    margin-bottom: 1.5rem;
+    text-align: center; /* Centraliza apenas o título */
+}
+
+.features {
+    display: flex;
+    flex-direction: column; /* Para exibição em dispositivos menores */
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a seção */
+}
+
+.feature {
+    padding: 1.5rem;
+    background: #F9F9F9; /* Fundo claro para separar os cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.4rem;
+    color: #FFC107; /* Destaque dourado */
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    color: #555555; /* Tom mais suave para o texto */
+}
+
+.feature p strong {
+    color: #1E3C72; /* Destaque para palavras importantes */
+}
